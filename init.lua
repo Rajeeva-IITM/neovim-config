@@ -17,3 +17,8 @@ vim.lsp.config("ruff", {
 vim.lsp.enable("ruff")
 vim.lsp.enable("pyrefly")
 vim.lsp.enable("air")
+
+require("catppuccin").setup({
+    flavour = "macchiato",
+})
+-- vim.cmd.colorscheme

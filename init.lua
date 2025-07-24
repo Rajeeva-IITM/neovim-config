@@ -1,7 +1,7 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 
-vim.opt.shell = "nu.exe"
+vim.opt.shell = "pwsh.exe"
 
 require("mason").setup()
 require("mason-lspconfig").setup()

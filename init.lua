@@ -5,7 +5,7 @@ if vim.fn.executable("nu.exe") == 1 then
     vim.opt.shell = "nu.exe"
 elseif vim.fn.executable("pwsh.exe") == 1 then
     vim.opt.shell = "pwsh.exe"
-elseif vim.fn.executable("zsh") then
+elseif vim.fn.executable("zsh") == 1 then
     vim.opt.shell = "zsh"
 else
     vim.opt.shell = "bash"
